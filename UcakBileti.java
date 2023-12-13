@@ -19,7 +19,7 @@ public class UcakBileti {
         yTipi = scanner.nextInt();
 
         if (km <= 0 || yas <= 0 || (yTipi != 1 && yTipi != 2)) {
-            System.out.println("Hatalı Veri Girdiniz!");
+            System.out.println("Hatali Veri Girdiniz!");
         } else {
             
             double birimFiyat = 5;
