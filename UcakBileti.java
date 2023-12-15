@@ -26,7 +26,7 @@ public class UcakBileti {
             double toplamFiyat = km * birimFiyat;
       
                 if(yas < 12){
-                    toplamFiyat = toplamFiyat * 0.5 ;
+                    toplamFiyat = toplamFiyat * 0.4 ;
                 }else if (12 <= yas && yas <= 24){
                     toplamFiyat = toplamFiyat * 0.9 ;
                 }else if (yas >= 65){
